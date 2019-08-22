@@ -128,6 +128,7 @@ var angularJs = angular.module("angularJs",
 
     return directiveDefinitionObject
   }])
+  
     .directive('typewrite', ['$timeout', function ($timeout) {
         function linkFunction (scope, iElement, iAttrs) {
             var timer = null,
