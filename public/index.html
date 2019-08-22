@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta tags -->
+
+    <base href="/">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable = yes">
+    <meta name="viewport" content="width=1024">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="angularJs"/>
+    <meta name="keywords" content="angularJs , ammoradi , CESA , workshop"/>
+    <meta name="author" content="amirmohammad.moradi@gmail.com"/>
+
+    <title>angularJs</title>
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link href="bower_components/animate.css/animate.min.css" type="text/css" rel="stylesheet">
+    <link href="css/framework.css" type="text/css" rel="stylesheet">
+    <link href="css/landing.css" type="text/css" rel="stylesheet">
+    <link href="css/examples.css" type="text/css" rel="stylesheet">
+
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <script data-require="angular.js@1.3.17" data-semver="1.3.17" src="https://code.angularjs.org/1.3.17/angular.js"></script>
+    <script src="https://code.angularjs.org/1.3.17/angular-touch.js"></script>
+    <script data-require="ui-bootstrap@*" data-semver="0.13.3" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.3/ui-bootstrap.min.js"></script>
+    <script src="ui-bootstrap-tpls.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- Lib Dependencies  -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+    <script src="node_modules/angular-typeform/angular-typeform.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.min.js"></script> -->
+    <script src="bower_components/ngstorage/ngStorage.min.js"></script>
+
+    <!-- Dependency Modules  -->
+    <script src="js/Modules/jsonPlaceHolderModule/jsonPlaceHolderModule.js"></script>
+    <script src="js/Modules/jsonPlaceHolderModule/JsonPlaceHolderModel.js"></script>
+    <script src="js/Modules/jsonPlaceHolderModule/JsonPlaceHolderServices.js"></script>
+
+
+    <!-- Main Module  -->
+    <script src="js/app.js"></script>
+
+    <!-- Global Services -->
+    <script src="js/Conf/Constants.js"></script>
+    <script src="js/Conf/AuthInterceptor.js"></script>
+    <script src="js/Services/AuthService.js"></script>
+
+    <!-- Controllers -->
+    <script src="dist/js/Controller.min.js"></script>
+
+</head>
+
+<body ng-app="angularJs" ng-controller="RootCtrl">
+<div>
+    <main id="main">
+        <div ui-view></div>
+    </main>
+</div>
+</body>
+</html>

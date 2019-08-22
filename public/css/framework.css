@@ -1,0 +1,236 @@
+.container {
+  width: 100%;
+  margin: auto; }
+
+.grid {
+  overflow: hidden; }
+  .grid .col-1 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 1 ) - 5px); }
+  .grid .col-2 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 2 ) - 5px); }
+  .grid .col-3 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 3 ) - 5px); }
+  .grid .col-4 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 4 ) - 5px); }
+  .grid .col-5 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 5 ) - 5px); }
+  .grid .col-6 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 6 ) - 5px); }
+  .grid .col-7 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 7 ) - 5px); }
+  .grid .col-8 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 8 ) - 5px); }
+  .grid .col-9 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 9 ) - 5px); }
+  .grid .col-10 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 10 ) - 5px); }
+  .grid .col-11 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 11 ) - 5px); }
+  .grid .col-12 {
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    width: calc( ((100% / 12) * 12 ) - 5px); }
+  .grid .container {
+    width: auto;
+    margin: auto; }
+  .grid .offset-left {
+    float: left; }
+  .grid .offset-right {
+    margin-left: 5px !important;
+    margin-right: 0 !important; }
+  .grid .no-margin-bottom {
+    margin-bottom: 0 !important; }
+  .grid .center {
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .grid .vcol-1 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 1) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-1 .forms {
+      height: calc((((100% - 0) / 12) * 1) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-1 footer + .forms {
+      height: calc((((100% - 0) / 12) * 1) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-2 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 2) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-2 .forms {
+      height: calc((((100% - 0) / 12) * 2) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-2 footer + .forms {
+      height: calc((((100% - 0) / 12) * 2) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-3 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 3) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-3 .forms {
+      height: calc((((100% - 0) / 12) * 3) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-3 footer + .forms {
+      height: calc((((100% - 0) / 12) * 3) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-4 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 4) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-4 .forms {
+      height: calc((((100% - 0) / 12) * 4) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-4 footer + .forms {
+      height: calc((((100% - 0) / 12) * 4) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-5 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 5) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-5 .forms {
+      height: calc((((100% - 0) / 12) * 5) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-5 footer + .forms {
+      height: calc((((100% - 0) / 12) * 5) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-6 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 6) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-6 .forms {
+      height: calc((((100% - 0) / 12) * 6) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-6 footer + .forms {
+      height: calc((((100% - 0) / 12) * 6) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-7 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 7) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-7 .forms {
+      height: calc((((100% - 0) / 12) * 7) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-7 footer + .forms {
+      height: calc((((100% - 0) / 12) * 7) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-8 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 8) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-8 .forms {
+      height: calc((((100% - 0) / 12) * 8) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-8 footer + .forms {
+      height: calc((((100% - 0) / 12) * 8) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-9 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 9) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-9 .forms {
+      height: calc((((100% - 0) / 12) * 9) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-9 footer + .forms {
+      height: calc((((100% - 0) / 12) * 9) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-10 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 10) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-10 .forms {
+      height: calc((((100% - 0) / 12) * 10) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-10 footer + .forms {
+      height: calc((((100% - 0) / 12) * 10) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-11 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 11) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-11 .forms {
+      height: calc((((100% - 0) / 12) * 11) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-11 footer + .forms {
+      height: calc((((100% - 0) / 12) * 11) - 5px - 0 - 0 - 30px); }
+  .grid .vcol-12 {
+    overflow: hidden !important;
+    height: calc((((100% - 0) / 12) * 12) - 5px);
+    margin-bottom: 5px; }
+    .grid .vcol-12 .forms {
+      height: calc((((100% - 0) / 12) * 12) - 5px - 0 - 30px);
+      overflow-y: scroll; }
+    .grid .vcol-12 footer + .forms {
+      height: calc((((100% - 0) / 12) * 12) - 5px - 0 - 0 - 30px); }
+
+body {
+  width: 100%;
+  min-height: 100vw;
+  height: 100%;
+  background-color: black;
+  font-family: 'Pacifico', cursive;
+  margin: 50% auto !important; }
+
+h1 {
+  color: white;
+  text-align: center; }
+
+.action-button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  position: relative;
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+  float: left;
+  border-radius: 10px;
+  font-size: 25px;
+  color: darkviolet;
+  text-decoration: none;
+  background-color: white;
+  border-bottom: 5px solid #ccc; }
+  .action-button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid; }
